@@ -18,3 +18,10 @@ console.log("Os números inseridos são:");
 for (let i = 0; i < numeros.length; i++) {
     console.log(numeros[i]);
 }
+
+
+// Calculando a soma dos elementos do array usando reduce
+let soma = numeros.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
+
+// Imprimindo a soma no console
+console.log(`A soma de todos os números é: ${soma}`);
